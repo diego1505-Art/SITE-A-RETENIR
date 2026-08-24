@@ -7,3 +7,5 @@ https://github.com/sherlock-project/sherlock      - search username local  (rech
 https://web-check.xyz/                            - recherche les vulnerabilités  (tres bonne outil permettant les recherche de faille des serv dns et ipsur des url)
 
 https://osintframework.com/                       _ OSINT PRO              (meilleur outil OSINT le plus pro jamais crée)
+
+https://www.exploit-db.com/              (Exploit-DB permet de rechercher des vulnérabilités connues et les exploits associés afin d’analyser et de tester la sécurité de logiciels et d’applications web)
