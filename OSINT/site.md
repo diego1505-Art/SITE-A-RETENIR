@@ -22,5 +22,5 @@ https://www.exploit-db.com/              (Exploit-DB permet de rechercher des vu
 
 https://github.com/TheRealDalunacrobate/DaProfiler - outil osint          (tres tres fort outil local recherche sur des compt sur des adress email et bien d autre il est utiliser par des expert francais car il est disponible que en france) 
 
-https://github.com/mxrch/GitFive                   - gitub osint          (permet de tracker toutes les activité et donné comme adress email autre compt local adres et autre d un compt gitub. PS : vous devez vraiment pas aimez ce gas)
+https://github.com/mxrch/GitFive                   - gitub osint          (permet de tracker toutes les activité et donné comme adress email autre compt local adresse et autre d un compt gitub. PS : vous devez vraiment pas aimez ce gas)
 
