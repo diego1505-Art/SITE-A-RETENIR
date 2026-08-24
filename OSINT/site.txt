@@ -8,7 +8,7 @@ adresses physiques
 dates de naissance
 mots de passe anciens ou hachés provenant de fuites historiques
 
-https://github.com/megadose/toutatis              - recherche insta        (recherche toutes les donne d un identifiant instagrame comme adress email tel et plein d autre)
+https://github.com/megadose/toutatis              - recherche insta        (recherche toutes les donne d un identifiant instagrame comme adress email tel et plein d autre mais tout en local)
 
 https://usersearch.org/                           - search username cloud  (recherche username cloud)
 
