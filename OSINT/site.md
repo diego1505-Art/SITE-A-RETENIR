@@ -14,7 +14,7 @@ https://usersearch.org/                           - search username cloud  (rech
 
 https://github.com/sherlock-project/sherlock      - search username local  (recherche username local)
 
-https://web-check.xyz/                            - recherche les vulnerabilités  (tres bonne outil permettant les recherche de faille des serv dns et ipsur des url)
+https://web-check.xyz/                            - recherche les vulnerabilités  (tres bonne outil permettant les recherche de faille des serv dns et ip sur des url)
 
 https://osintframework.com/                       - OSINT PRO              (meilleur outil OSINT le plus pro jamais crée,y a rien a dire car il fait tout -__-)
 
