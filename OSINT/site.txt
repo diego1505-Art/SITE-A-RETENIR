@@ -1,1 +1,7 @@
-https://pics.io/photo-metadata-viewer-fr          - OSINT                  (analyzer les métadonnées EXIF, notamment GPS, date, modèle du téléphone, etc.)
+https://pics.io/photo-metadata-viewer-fr          - métadonnée                  (analyzer les métadonnées EXIF, notamment GPS, date, modèle du téléphone, etc.)
+
+https://usersearch.org/                           - search username cloud  (recherche username cloud)
+
+https://github.com/sherlock-project/sherlock      - search username local  (recherche username local)
+
+https://osintframework.com/                       _ OSINT PRO              (meilleur outil OSINT le plus pro jamais crée)
