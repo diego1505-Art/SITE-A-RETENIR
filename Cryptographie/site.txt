@@ -1,3 +1,3 @@
 https://www.base64decode.org/fr/                  - Cryptographie          (descrypter et scrypter un message en base64)
 
-https://pleasetools.com/                          - Cryptographie          (un outil de hashage scryptage analyze convertisseur et autre tres utils)
+https://pleasetools.com/                          - Cryptographie          (un outil de hashage scryptage analyzeeur, convertisseur et autre tres utils)
