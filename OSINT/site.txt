@@ -1,5 +1,13 @@
 https://pics.io/photo-metadata-viewer-fr          - métadonnée                  (analyzer les métadonnées EXIF, notamment GPS, date, modèle du téléphone, etc.)
 
+https://github.com/khast3x/h8mail                 - email                 (recherche imail approfondie sur toutes les fuite et outil osint integrer se fait en local ,il peut trouver des choses comme :
+nom ou prénom
+pseudonymes
+numéros de téléphone
+adresses physiques
+dates de naissance
+mots de passe anciens ou hachés provenant de fuites historiques
+
 https://usersearch.org/                           - search username cloud  (recherche username cloud)
 
 https://github.com/sherlock-project/sherlock      - search username local  (recherche username local)
