@@ -17,3 +17,5 @@ https://web-check.xyz/                            - recherche les vulnerabilité
 https://osintframework.com/                       _ OSINT PRO              (meilleur outil OSINT le plus pro jamais crée)
 
 https://www.exploit-db.com/              (Exploit-DB permet de rechercher des vulnérabilités connues et les exploits associés afin d’analyser et de tester la sécurité de logiciels et d’applications web)
+
+https://haveibeenpwned.com/                       - email                   (test si y a pas de fuite avec ton adress email(moi j en avais -__-))
