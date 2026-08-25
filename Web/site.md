@@ -47,4 +47,37 @@ dans mots clé choisis login
 puis choisis un des lien proposer
 
 
+## Installation
 
+### Mettre à jour le système
+
+```bash
+sudo apt update
+sudo apt upgrade -y
+```
+
+### Cloner le dépôt
+
+```bash
+git clone https://github.com/spyboy-productions/Facad1ng
+cd Facad1ng
+```
+
+### Créer un environnement virtuel
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+### Installer les dépendances
+
+```bash
+pip3 install -r requirements.txt
+```
+
+### Lancer le programme
+
+```bash
+python3 Facad1ng.py
+```
