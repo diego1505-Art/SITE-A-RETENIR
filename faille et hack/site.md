@@ -15,8 +15,7 @@ sudo apt upgrade -y
 ```bash
 clear
 sudo setoolkit
-```
-entrer y apres le password  
+``` 
 puis choisissez 1,2,3 et l option 2  
 entrer ton ipv4 :  
 puis choisis un site que tu veux cloner  
