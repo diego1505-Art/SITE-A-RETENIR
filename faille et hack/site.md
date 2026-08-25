@@ -1,4 +1,3 @@
-language SQL reponse toujours vrai : 'OR 1 =1--'  - faille SQL                    (permet de contourner des mots de passe et autre faille dans une page web)
 
 ### linux hack faux site : mots de passe et identifiant repris 
 copier toutes les commande une aune dans le terminal linux :  
