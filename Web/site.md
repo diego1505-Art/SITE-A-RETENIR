@@ -13,23 +13,37 @@ sudo setoolkit ---> pasword  ---> y
 option 1
 
 option 2
+
 option 3
+
 option 2
+
 enter ton ipv4 :
+
 enter url :
+
 ssh -R 80:localhost:80 serveo.net  --> yes (copier et noter le lien)--petit note google login en marche pas 
+
 git clone https://github.com/spyboy-productions/Facad1ng
-clear
+
 cd Facad1ng
-clear
+
 python3 -m venv venv
+
 source venv/bin/activate
+
 clear
+
 ls --> requirements.txt
+
 pip3 install -r requirements.txt
+
 python3 Facad1ng.py
+
 copie colle ton url que tu as noté
+
 dans mots clé choisis login
+
 puis choisis un des lien proposer
 
 
