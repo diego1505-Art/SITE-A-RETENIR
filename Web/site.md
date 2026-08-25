@@ -6,6 +6,7 @@ sudo apt update
 clear
 sudo apt upgrade --> y
 sudo setoolkit ---> pasword  ---> y
+#
 option 1
 option 2
 option 3
