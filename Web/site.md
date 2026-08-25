@@ -10,8 +10,9 @@ option 1
 option 2
 option 3
 option 2
+enter ton ipv4 :
 enter url :
-ssh -R 80:localhost:80 serveo.net  --> yes (copier et noter le lien)
+ssh -R 80:localhost:80 serveo.net  --> yes (copier et noter le lien)--petit note google login en marche pas 
 git clone https://github.com/spyboy-productions/Facad1ng
 clear
 cd Facad1ng
