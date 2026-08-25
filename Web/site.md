@@ -3,11 +3,15 @@ language SQL reponse toujours vrai : 'OR 1 =1--'  - faille SQL                  
 linux hack faux site : mots de passe et identifiant repris 
 
 sudo apt update
+
 clear
+
 sudo apt upgrade --> y
+
 sudo setoolkit ---> pasword  ---> y
-#
+
 option 1
+
 option 2
 option 3
 option 2
