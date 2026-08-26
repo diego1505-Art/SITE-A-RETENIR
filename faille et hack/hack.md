@@ -56,9 +56,9 @@ python3 Facad1ng.py
 copie colle ton url que tu as noté  
 dans mots clé choisis login  
 puis choisis un des lien proposer 
-### nouveau hack : attack ddos
-https://github.com/mishakorzik/Ultra-DDos
-commande a mettre dans kali linux :
+
+### nouveau hack : attack ddos  
+commande a mettre dans kali linux : 
 ````bash
 sudo apt update
 sudo apt upgrade
