@@ -55,4 +55,29 @@ python3 Facad1ng.py
 ```
 copie colle ton url que tu as noté  
 dans mots clé choisis login  
-puis choisis un des lien proposer  
+puis choisis un des lien proposer 
+### nouveau hack : attack ddos
+https://github.com/mishakorzik/Ultra-DDos
+commande a mettre dans kali linux :
+````bash
+sudo apt update
+sudo apt upgrade
+````
+ensuite :  
+````bash
+sudo apt installgit python3 python3-pip
+````
+cloner le repot:  
+````bash
+git clone https://github.com/mishakorzik/Ultra-DDos
+````
+ouvrir et lancer :  
+````bash
+cd Ultra-DDos
+python2 main.py
+````
+si un probleme :
+````bash
+pip install --break-system-packages user-agent
+````
+vous pouvez lancer une attack ddos sur une ip avec son port ,sur un site web et inspecter le reseau si une attack a fonctionner sur une ip et une url   
