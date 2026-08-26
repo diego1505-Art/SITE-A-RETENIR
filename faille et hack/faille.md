@@ -4,7 +4,8 @@ language SQL reponse toujours vrai :
 ````bash
 'OR 1 =1--'  
 ````   
-permet de contourner des mots de passe et autre faille dans une page web  
+permet de contourner des mots de passe et autre faille dans une page web 
+il peut etre placer dans un formulaire (car cela envoie une requete direct au serveur)  
 
 ### faille XML  
 
@@ -33,4 +34,16 @@ Content-Type: application/x-www-form-urlencoded
 Content-Length: 24  
 theme_id=0xFF&csrf_token=randomval  
 ````  
-ps: vous pouvez modifier le chemin pour ouvrir n import quelle fichier   
+ps: vous pouvez modifier le chemin pour ouvrir n import quelle fichier  
+
+### faille commentaire :  
+
+Tu postes un commentaire sur un site, mais au lieu d'un vrai commentaire tu mets du code JavaScript. Ce code s'exécute dans le navigateur de tous ceux qui visitent la page.
+
+Exemple :   
+
+````bash
+<script>alert('hacké')</script>
+````
+ Tu postes dans un commentaire et une pop-up apparaît chez tous les visiteurs.  
+ ps: vous pouvez allez toujours plus loin comme voler les cooki de tous les visiteur .  
