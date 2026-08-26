@@ -8,7 +8,7 @@ La majorité des ressources présentées ici ne nécessitent aucune connaissance
 
 Certains outils locaux (Sherlock, GitFive, h8mail, Toutatis, etc.) demandent simplement de savoir utiliser un terminal Linux et installer des dépendances Python.  
 
-L'apprentissage de Python devient utile si vous souhaitez automatiser vos recherches ou développer vos propres outils de cybersécurité.  
+L'apprentissage de Python devient utile si vous souhaitez automatiser vos recherches ou développer vos propres outils de cybersécurité.  https://github.com/diego1505-Art/absolute_python-
 
 
 
