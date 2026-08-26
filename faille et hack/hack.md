@@ -1,5 +1,6 @@
 
 ### linux hack faux site : mots de passe et identifiant repris 
+cela va servir a cloner un site parfaitement attention les site avec le code source chiffré notament js et python auront des erreur au clonage 
 copier toutes les commande une aune dans le terminal linux :  
  
 ## Installation
