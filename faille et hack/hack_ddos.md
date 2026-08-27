@@ -1,6 +1,6 @@
 ### hack : attack ddos  unstable + ultra ddos + geeddos   
 
-### Ultra DDos , c un outil d attaque ddos tres puissant parfait pour un petit site et faible ip (si vous  posseder un pc moyen prenez)  
+# Ultra DDos , c un outil d attaque ddos tres puissant parfait pour un petit site et faible ip (si vous  posseder un pc moyen prenez)  
 un autre désavantage est qu il ne cache pas votre ip mais sinon il conservbien les requet get post et head et les envoie d un par paquet ce qui en fait une bonne attaque  
 
 
