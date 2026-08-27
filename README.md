@@ -10,6 +10,9 @@ Certains outils locaux (Sherlock, GitFive, h8mail, Toutatis, etc.) demandent sim
 
 L'apprentissage de Python devient utile si vous souhaitez automatiser vos recherches ou développer vos propres outils de cybersécurité.  https://github.com/diego1505-Art/absolute_python-
 
+- pour les gourmands : https://github.com/diego1505-Art/hacking-ethique/blob/main/faille%20et%20hack/hack.md
+
+
 
 
 
