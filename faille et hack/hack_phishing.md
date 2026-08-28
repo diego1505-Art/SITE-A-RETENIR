@@ -16,7 +16,7 @@ sudo apt upgrade -y
 ### installer et ouvrir le tool :  
 
 ```bash
-git clone https://github.com/thelinuxchoice/blackeye
+git clone https://github.com/thelinuxchoice/blackeye.git
 cd blackeye
 bash blackeye.sh
 ``` 
