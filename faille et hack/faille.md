@@ -1,11 +1,4 @@
-### faille SQL  
 
-language SQL reponse toujours vrai :  
-````bash
-'OR 1 =1--'  
-````   
-permet de contourner des mots de passe et autre faille dans une page web 
-il peut etre placer dans un formulaire (car cela envoie une requete direct au serveur)  
 
 ### faille XML  
 
