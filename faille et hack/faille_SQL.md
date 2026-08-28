@@ -3,6 +3,7 @@
 il peut etre placer dans un formulaire (car cela envoie une requete direct au serveur),dans des url,mais le moyen le plus efficace reste avec kali linux.
 tout d abord il faut savoir que les base de donné sont en SQL et tout ce qui a un acces direct aux base de donné constitue une faille.
 Je vais vous montré comment trouvé des identifiant dans n importe quelle site avec kali linux cela ne marche que si ces page n en sont pas proteger.
+ps : il vous faut un site fonctionant avec du php
 
 premiere commande , lister les database disponible dans le site :  
 
