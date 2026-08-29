@@ -16,7 +16,9 @@ sudo apt upgrade -y
 ### installer et ouvrir le tool :  
 
 ```bash
-git clone https://github.com/thelinuxchoice/blackeye.git
-cd blackeye
-bash blackeye.sh
+git clone https://github.com/Ignitetch/AdvPhishing.git
+cd AdvPhishing/
+chmod 777 *
+./Linux-Setup.sh
+./AdvPhishing.sh
 ``` 
