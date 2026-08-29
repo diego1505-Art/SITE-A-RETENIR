@@ -16,9 +16,7 @@ sudo apt upgrade -y
 ### installer et ouvrir le tool :  
 
 ```bash
-git clone https://github.com/Ignitetch/AdvPhishing.git
-cd AdvPhishing/
-chmod 777 *
-./Linux-Setup.sh
-./AdvPhishing.sh
+git clone https://github.com/htr-tech/nexphisher.git
+cd nexphisher
+bash nexphisher
 ``` 
