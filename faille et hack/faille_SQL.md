@@ -30,3 +30,8 @@ sudo sqlmap -u (l url de ton site) --(le nom de la base) -T (le nom de la table)
 les les site avec beaucoup de dossier et fichier peuvent avoir une autre table (cdommande 3) a taper vous retaper la meme commande normalement c est le meme nom
 vous avez pu voir les faille SQL avec kali linux.
 
+## commande connu :
+````bash
+'OR 1 = 1 --
+````
+
