@@ -16,7 +16,7 @@ sudo apt upgrade -y
 ### installer et ouvrir le tool :  
 
 ```bash
-git clone https://github.com/htr-tech/nexphisher.git
-cd nexphisher
-bash nexphisher
+git clone --depth=1 https://github.com/htr-tech/zphisher.git
+cd zphisher
+bash zphisher.sh
 ``` 
