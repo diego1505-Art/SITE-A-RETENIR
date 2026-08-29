@@ -20,3 +20,4 @@ git clone --depth=1 https://github.com/htr-tech/zphisher.git
 cd zphisher
 bash zphisher.sh
 ``` 
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/0c2435ba-ae90-44e1-bf54-942d53b95abf" />
