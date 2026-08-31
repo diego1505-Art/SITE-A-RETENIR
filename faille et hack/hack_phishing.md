@@ -21,3 +21,21 @@ cd zphisher
 bash zphisher.sh
 ``` 
 <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/0c2435ba-ae90-44e1-bf54-942d53b95abf" />
+
+# pour le phishing ip public camera microphone position et autre donné :  
+
+## installation  
+
+### installer et ouvrir le tool :
+````bash
+git clone https://github.com/ultrasecurity/Storm-Breaker
+cd Storm-Breaker
+sudo bash install.sh
+sudo python3 -m pip install -r requirements.txt
+sudo python3 st.py
+````
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/6d4629fd-5f58-4402-ad94-531a1846701b" />
+
+### autre infos :  
+
+si vous voulez changer les templates ne touchez pas au js (il y a souvent des confusion avec les chemins et le serv)
