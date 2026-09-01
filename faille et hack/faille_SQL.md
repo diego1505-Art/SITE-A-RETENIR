@@ -33,7 +33,7 @@ sudo sqlmap -u (l url de ton site) --(le nom de la base) -T (le nom de la table)
 ````
 les sites avec beaucoup de dossier et fichier peuvent avoir une autre table (commande 3) vous la  retaper normalement c est le meme nom.
 
-## burp suite :
+## burp suite et DVWA :
 
 c est assez simple envoyer une premiere requete pour savoir si le site web vous repond ,ensuite recuperer la requet avec burp suite et edidter les chemin comme une nouvelle requet , les cookies et parametrer les envoies et meme voire les changement de la page web en direct.
 mais on doit se dire comme apprendre le language sql ici vous trouvera une list de video yt qui utilisera notemant bvwa ou des site d entrainement pour apprendre :
