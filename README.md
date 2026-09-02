@@ -34,7 +34,7 @@ ps : vous pouvez suivre le projet ici https://github.com/diego1505-Art/hacking-e
 > Toute utilisation sur des systèmes tiers sans autorisation est **illégale** en France
 > (articles 323-1 à 323-7 du Code pénal) et dans la majorité des pays.
 >
-> L'auteur décline toute responsabilité pour un usage non conforme à la loi.
+> Je décline toute responsabilité pour un usage non conforme à la loi.
 > Ce projet ne cautionne aucune activité illégale.
 
 > [!CAUTION]
