@@ -2,8 +2,8 @@
 
 ## prerequis :
 - virtual box avec kali linux dedans
-- sqlamp
-- si besoin DVWA
+- sqlmap
+- si besoin BVWA
 - si besoin burp suite
   
 ## injection SQL :  
