@@ -1,5 +1,11 @@
 # faille SQL  
 
+## prerequis :
+- virtual box avec kali linux dedans
+- sqlamp
+- si besoin DVWA
+- si besoin burp suite
+  
 ## injection SQL :  
 
 il peut etre placer dans un formulaire (car cela envoie une requete direct au serveur),dans des url,mais le moyen le plus efficace reste avec kali linux.
