@@ -14,7 +14,8 @@ L'apprentissage de Python devient utile si vous souhaitez automatiser vos recher
 
  ## les malwar
 je suis sur un gros projet sur les malwar qui va me prendre enormement de temps je vais vous montrer de A a Z comment faire des malwar avec des methode de bypasse anti virus et window defender , comment cacher un malwar derriere une image , un document pdf etc,video audio etc...
-je pourrai vous montrer des technique ou on doit tout taper a la main scrypter le code et des moment vous pourrez utiliser des outil comme fatrat , veszom metaploitable et autre .
+je pourrai vous montrer des technique ou on doit tout taper a la main scrypter le code et des moment vous pourrez utiliser des outil comme fatrat , veszom metaploitable et autre . 
+ps : vous pouvez suivre le projet ici 
 
 
 
