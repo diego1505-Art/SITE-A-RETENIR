@@ -24,3 +24,6 @@ https://github.com/TheRealDalunacrobate/DaProfiler - outil osint          (tres 
 
 https://github.com/mxrch/GitFive                   - gitub osint          (permet de tracker toutes les activité et donné comme adress email autre compt local adresse et autre d un compt gitub. PS : vous devez vraiment pas aimez ce gas)
 
+## video yt :
+
+https://www.youtube.com/watch?v=8XDRUk4soS8
