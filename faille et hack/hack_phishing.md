@@ -1,6 +1,9 @@
 
 # linux hack faux site : mots de passe et identifiant repris
 
+## prerequis :  
+- virtual box avec kali linux dedans
+  
 cela va servir a cloner des sites connu parfaitement  (insta,tiktok,apple...)  
 
 copier toutes les commande une a une dans le terminal linux :  
