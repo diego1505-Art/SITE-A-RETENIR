@@ -74,5 +74,15 @@ renseigne sur l idendité sur nos cibles
 ### section developper commande :
 possede les attribue de modification
 
+### section dns commande :
+Gérer le comportement de résolution DNS de Metasploit
+
 ### section msfconsole :
-simple description 
+simple description
+
+###  je vous ai expliquez les section des commande pour toutes les commande le description se trouve a cote dans l interface consol msfconsole 
+ ## exemple:
+
+ <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/2b809094-d5d6-41f1-8edd-e9c96c66e064" />
+
+
