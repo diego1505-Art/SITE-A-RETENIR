@@ -132,7 +132,7 @@ critquez pas svp -__-
 
 ## ensuite :
 
-### taper cette commande pour presiser cotre adresse ip (remplacer mon ip par la votre )
+### taper cette commande pour presiser votre adresse ip (remplacer mon ip par la votre )
 
 ````bash$
 set Lhost 192.168.56.101
