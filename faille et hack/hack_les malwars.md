@@ -196,8 +196,13 @@ format exe malwar complet en une ligne :
 generate -e x86/shikata_ga_nai -b \xff -i 2 -o /home/kali/Desktop/fichier.exe -f exe
 ````
 
-## c est fini on peut toujours rajouter plus d iteration y a d autre format , encoder, forme,option ,playload possible explorer tout 👍
+## c est fini on peut toujours rajouter plus d iteration y a d autre format , encoder, forme,option ,playload,module possible explorer tout 👍
 
 # maintenant nous allons utiliser msfvemon , tout d abord comprenons ce que c est :
 
 <img width="1277" height="718" alt="image" src="https://github.com/user-attachments/assets/a23ff33c-6aea-44f4-9b44-0db65c87a241" />
+
+## explication :
+
+msfvemon est comme msfconsol ,nous avons pu voir seulement le module playload et encoder mais il en exisit 6 alors que msfvemon est concentrer que sur les playload backdoor et encoder on peut penser c bien mais oublier les menu chouette avec plein de chois les commande show encoder et option il n y a que deux commandepour vous aider  comme sur l image sinon  il repose sur les meme commande que msfconsol
+
