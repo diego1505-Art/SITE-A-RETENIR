@@ -20,13 +20,9 @@
 # commande pour lancer msfconsole :  
 
 ```bash
-commande1
-commande2
-```
-
-```bash
-commande3
-commande4
+service postgresql start §§ apach2 start
+msfdb init
+msfconsole
 ```
 <img width="456" height="321" alt="image" src="https://github.com/user-attachments/assets/0bc31373-3aaf-4bb8-a017-50bde4a3232e" />
 
