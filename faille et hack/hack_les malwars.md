@@ -8,7 +8,7 @@
 
 
 
-## voilà une architecture de metaploite
+## voilà une architecture de metasploite
 
 
 <img width="1277" height="722" alt="image" src="https://github.com/user-attachments/assets/6713005c-ec08-48f7-819e-ee17dfd5a26c" />
@@ -33,7 +33,7 @@ msfconsole
 
 ## explication :
 
-les exploits sont des codes malicieux permettant de détourner le fonctionemet d'un programme à partir d'une vulnérabilité  
+les exploits sont des codes malicieux permettant de détourner le fonctionement d'un programme à partir d'une vulnérabilité  
 
 les auxilaires sont des outils permettant de scanner des systèmes , ce qui permettra de découvrir des ports, des services et des vulnérabilités  
 
@@ -100,9 +100,9 @@ simple description
 use PAYLOAD/
 ````
 
-### vous verrer des millier de champs qui vous ferront mal au crane (oui j ai eut mal -__-)
+### vous verrez des milliers de champs qui vous ferront mal au crane (oui j ai eut mal -__-)
 
-taper just cette commande :
+taper juste cette commande :
 
 ````bash
 use payload/windows/x64/shell_reverse_tcp
