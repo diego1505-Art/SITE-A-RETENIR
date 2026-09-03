@@ -97,5 +97,5 @@ simple description
 ### commande a taper :
 
 ````bash
-use plauload/
+use playload/
 y
