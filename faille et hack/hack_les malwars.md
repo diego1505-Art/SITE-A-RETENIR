@@ -80,9 +80,14 @@ Gérer le comportement de résolution DNS de Metasploit
 ### section msfconsole :
 simple description
 
-###  je vous ai expliquez les section des commande pour toutes les commande le description se trouve a cote dans l interface consol msfconsole 
+###  je vous ai expliquez les section des commande , pour toutes les commande le description se trouve a cote dans l interface consol msfconsole 
  ## exemple:
 
  <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/2b809094-d5d6-41f1-8edd-e9c96c66e064" />
+ 
+
+### je vais vous montrer comment faire des playload alors tout d abord qu est ce qu c est des playload exactement 🤔 :
+
+<img width="1280" height="718" alt="Capture d&#39;écran 2026-09-03 185758" src="https://github.com/user-attachments/assets/e8dc22d7-8e1e-4667-be57-02df2fa4e3e9" />
 
 
