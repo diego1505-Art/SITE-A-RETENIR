@@ -24,6 +24,8 @@ service postgresql start §§ apach2 start
 msfdb init
 msfconsole
 ```
+# normalement vous avez ceci 
+
 <img width="456" height="321" alt="image" src="https://github.com/user-attachments/assets/0bc31373-3aaf-4bb8-a017-50bde4a3232e" />
 
 les exploit sont des code malicieux permettant de detourner le fonctionemet d un programme a partir d une vulenrabilité  
