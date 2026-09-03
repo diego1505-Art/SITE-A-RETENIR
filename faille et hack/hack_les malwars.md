@@ -42,8 +42,10 @@ les encoders nous permettrons de dissumler nos playload afin d etre le moins det
 
 les nops sont des structure par defaut qui permettrons de faire fonctionner nos code malveillant selon les plateforme (web = comment le site est fait,pc= systeme d exeploitation,telephone=os)
 
-les evsion permmettent de generer des playload quasi indetectable par la grande majorité des anti virus
-apres le lancement de msfconsole taper:
+les evasion permmettent de generer des playload quasi indetectable par la grande majorité des anti virus
+
+### apres le lancement de msfconsole taper:
+
 ````bash
 help
 ````
