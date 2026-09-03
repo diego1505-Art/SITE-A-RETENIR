@@ -88,7 +88,7 @@ simple description
  <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/2b809094-d5d6-41f1-8edd-e9c96c66e064" />
  
 
-### je vais vous montrer comment faire des playload alors tout d abord qu est ce qu c est des playload exactement 🤔 :
+### je vais vous montrer comment faire des playload alors tout d abord qu est ce que c est des playload exactement 🤔 :
 
 <img width="1280" height="718" alt="Capture d&#39;écran 2026-09-03 185758" src="https://github.com/user-attachments/assets/e8dc22d7-8e1e-4667-be57-02df2fa4e3e9" />
 
@@ -123,7 +123,7 @@ critquez pas svp -__-
 
 <img width="1920" height="922" alt="645845784-a7ac75af-2cea-4be0-bde2-e76bb0a98350" src="https://github.com/user-attachments/assets/48f4b797-0399-4a39-b506-f8b88090e2f5" />
 
-## moi je suis en local (ip = 192.etc) pour pratiquer des test legal mais si vous configurer dans virutal box cliquer sur kali linux puis configuration puis reseau vous pourrez tout changer :
+## moi je suis en local (ip = 192.etc) pour pratiquer des test legal mais si vous configurez dans virutal box cliquer sur kali linux puis configuration puis reseau vous pourrez tout changer :
 
 <img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/fc0183fb-80c6-4374-baaa-ba72bf103ed8" />
 
