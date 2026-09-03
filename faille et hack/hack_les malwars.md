@@ -1,6 +1,6 @@
 # Les malwars
 
-## Prerequis :
+## Prérequis :
 - virtual box
 - kali linux dans virtual
 - windows 10 dans virtual
@@ -8,7 +8,7 @@
 
 
 
-## voila l architecture de metaploite
+## voilà une architecture de metaploite
 
 
 <img width="1277" height="722" alt="image" src="https://github.com/user-attachments/assets/6713005c-ec08-48f7-819e-ee17dfd5a26c" />
@@ -31,23 +31,23 @@ msfconsole
 
 
 
-## expliquation :
+## explication :
 
-les exploit sont des code malicieux permettant de detourner le fonctionemet d un programme a partir d une vulenrabilité  
+les exploits sont des codes malicieux permettant de détourner le fonctionemet d'un programme à partir d'une vulnérabilité  
 
-les auxilaire sont des outil permettant de scanner des systeme ,qui permettra de decouvrir des port des service et des vulenrabilité  
+les auxilaires sont des outils permettant de scanner des systèmes , ce qui permettra de découvrir des ports, des services et des vulnérabilités  
 
-les post servent a la recherche d information comme les mots de passe , les dossier d une cible etd autre infomration   
+les posts servent à la recherche d'information comme les mots de passe ,les dossiers d'une cible et d'autres informations   
 
-les playload sont des code malaveillant que l on  injecte sur la cible en fonction de son architecture afin d etablir une connexion disante   
+les playload sont des codes malveillant que l'on injecte sur la cible en fonction de son architecture afin d'établir une connexion distante   
 
-les encoders nous permettrons de dissumler nos playload afin d etre le moins detecter par les systeme de notre cible
+les encoders nous permettrons de dissimuler nos playload afin d'être le moins détecté par les systèmes de notre cible
 
-les nops sont des structure par defaut qui permettrons de faire fonctionner nos code malveillant selon les plateforme (web = comment le site est fait,pc= systeme d exeploitation,telephone=os)
+les nops sont des structures par défaut qui permettront de faire fonctionner nos codes malveillants selon les plateformes (web = comment le site est fait,pc= système d exploitation,téléphone=os)
 
-les evasion permmettent de generer des playload quasi indetectable par la grande majorité des anti virus
+les evasions permmettent de générer des playload quasi indétectable par la grande majorité des anti virus
 
-### apres le lancement de msfconsole taper:
+### après le lancement de msfconsole taper:
 
 ````bash
 help
@@ -59,13 +59,13 @@ help
 inserer des commandes de base pour faire des recherches
 
 ### section module commande :
-obtenir des information specifique
+obtenir des informations specifiques
 
 ### section job commande :
 interagir avec un systeme 
 
 ### section ressource script commande :
-permet d ajouter nos script a nos test d intrusion
+permet d'ajouter nos scripts à nos tests d'intrusion
 
 ### section databse backend commande :
 permet de faire de la reconnaissance sur nos cibles
