@@ -17,16 +17,18 @@
 
 <img width="1282" height="723" alt="image" src="https://github.com/user-attachments/assets/c60cd0f7-662b-4324-ad2a-2676bf5e0b9b" />
 
-# commande pour lancer msfconsole :  
+## commande pour lancer msfconsole :  
 
 ```bash
 service postgresql start §§ apach2 start
 msfdb init
 msfconsole
 ```
-# normalement vous avez ceci 
+### normalement vous avez ceci 
 
 <img width="456" height="321" alt="image" src="https://github.com/user-attachments/assets/0bc31373-3aaf-4bb8-a017-50bde4a3232e" />
+
+## expliquation :
 
 les exploit sont des code malicieux permettant de detourner le fonctionemet d un programme a partir d une vulenrabilité  
 
