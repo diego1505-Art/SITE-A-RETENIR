@@ -51,3 +51,28 @@ les evasion permmettent de generer des playload quasi indetectable par la grande
 ````bash
 help
 ````
+## explication :
+
+### section core commande :
+inserer des commandes de base pour faire des recherches
+
+### section module commande :
+obtenir des information specifique
+
+### section job commande :
+interagir avec un systeme 
+
+### section ressource script commande :
+permet d ajouter nos script a nos test d intrusion
+
+### section databse backend commande :
+permet de faire de la reconnaissance sur nos cibles
+
+### section credential backend commande :
+renseigne sur l idendité sur nos cibles
+
+### section developper commande :
+possede les attribue de modification
+
+### section msfconsole :
+simple description 
