@@ -119,5 +119,8 @@ ouvrez un nouveau terminal et taper :
 ````bash
 ifconfig
 ````
-<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/a7ac75af-2cea-4be0-bde2-e76bb0a98350" />
+critquez pas svp -__-
+
+<img width="1920" height="922" alt="bd461e0a-0068-4673-bd93-9f8381cfc93c" src="https://github.com/user-attachments/assets/4b8f1e37-669c-4962-857d-552313aee233" />
+
 
