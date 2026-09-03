@@ -24,6 +24,7 @@ service postgresql start §§ apach2 start
 msfdb init
 msfconsole
 ```
+
 ### normalement vous avez ceci 
 
 <img width="595" height="816" alt="image" src="https://github.com/user-attachments/assets/3f89b84b-abe9-40b9-a975-955ef7515b2f" />
@@ -51,6 +52,7 @@ les evasion permmettent de generer des playload quasi indetectable par la grande
 ````bash
 help
 ````
+
 ## explication :
 
 ### section core commande :
@@ -90,4 +92,10 @@ simple description
 
 <img width="1280" height="718" alt="Capture d&#39;écran 2026-09-03 185758" src="https://github.com/user-attachments/assets/e8dc22d7-8e1e-4667-be57-02df2fa4e3e9" />
 
+# generer un playload :
 
+### commande a taper :
+
+````bash
+use plauload/
+y
