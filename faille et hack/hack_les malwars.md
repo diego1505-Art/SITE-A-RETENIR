@@ -123,7 +123,7 @@ critquez pas svp -__-
 
 <img width="1920" height="922" alt="645845784-a7ac75af-2cea-4be0-bde2-e76bb0a98350" src="https://github.com/user-attachments/assets/48f4b797-0399-4a39-b506-f8b88090e2f5" />
 
-## moi je suis en local pour pratiquer des test legal mais si vous configurer dans virutal box cliquer sur kali linux puis configuration puis reseau vous pourrez tout changer :
+## moi je suis en local (ip = 192.etc) pour pratiquer des test legal mais si vous configurer dans virutal box cliquer sur kali linux puis configuration puis reseau vous pourrez tout changer :
 
 <img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/fc0183fb-80c6-4374-baaa-ba72bf103ed8" />
 
