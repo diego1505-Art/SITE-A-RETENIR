@@ -1,4 +1,4 @@
-# Les malwars
+# Les malwares
 
 ## Prérequis :
 - virtual box
