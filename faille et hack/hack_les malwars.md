@@ -12,6 +12,7 @@
 
 
 <img width="1277" height="722" alt="image" src="https://github.com/user-attachments/assets/6713005c-ec08-48f7-819e-ee17dfd5a26c" />
+
 ## nous utiliserons msfconsole dans la console de kali linux dans virtual nox en mode root :
 
 <img width="1282" height="723" alt="image" src="https://github.com/user-attachments/assets/c60cd0f7-662b-4324-ad2a-2676bf5e0b9b" />
