@@ -175,3 +175,10 @@ generate -e x86/shikata_ga_nai -b \xff -f powershell
 ````bash
 generate -e x86/shikata_ga_nai -b \xff -i 2 -f powershell
 ````
+# vous devriez finir avec ceci 
+
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/6469b961-d96a-44dc-86af-f57f6b9e0972" />
+
+# maintenant nous allons utiliser msfvemon , tout d abord comprenons ce que c est :
+
+<img width="1277" height="718" alt="image" src="https://github.com/user-attachments/assets/a23ff33c-6aea-44f4-9b44-0db65c87a241" />
