@@ -217,7 +217,7 @@ msfvenom -h
 <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/4094e6bc-dde9-42fc-9b66-af0227b7812e" />
 
 
-## puis la commande pour tous les playload et encoder toujours un depotoire illisible :
+## puis la commande pour tous les playload et encoder, toujours un depotoire illisible :
 
 ````bash
 msfvenom -lall
