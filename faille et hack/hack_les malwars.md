@@ -26,7 +26,8 @@ msfconsole
 ```
 ### normalement vous avez ceci 
 
-<img width="960" height="456" alt="image" src="https://github.com/user-attachments/assets/61fea964-c8f2-4f77-8f40-a27b3cf4c209" />
+<img width="595" height="816" alt="image" src="https://github.com/user-attachments/assets/3f89b84b-abe9-40b9-a975-955ef7515b2f" />
+
 
 
 ## expliquation :
