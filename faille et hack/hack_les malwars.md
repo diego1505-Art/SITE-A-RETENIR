@@ -121,6 +121,7 @@ ifconfig
 ````
 critquez pas svp -__-
 
-<img width="1920" height="922" alt="bd461e0a-0068-4673-bd93-9f8381cfc93c" src="https://github.com/user-attachments/assets/4b8f1e37-669c-4962-857d-552313aee233" />
+<img width="1920" height="922" alt="645845784-a7ac75af-2cea-4be0-bde2-e76bb0a98350" src="https://github.com/user-attachments/assets/48f4b797-0399-4a39-b506-f8b88090e2f5" />
+
 
 
