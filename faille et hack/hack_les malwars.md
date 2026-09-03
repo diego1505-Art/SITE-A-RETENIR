@@ -22,8 +22,9 @@
 <tr>
 <td>
 <pre>
-commande1
+````bash
 commande2
+````
 </pre>
 </td>
 
