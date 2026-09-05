@@ -218,11 +218,12 @@ msfvenom -h
 <img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/4094e6bc-dde9-42fc-9b66-af0227b7812e" />
 
 
-## puis la commande pour tous les playload et encoder, toujours un depotoire illisible :
+## puis la commande pour tous les playload et encoder :
 
 ````bash
 msfvenom -lall
 ````
+<img width="1920" height="922" alt="image" src="https://github.com/user-attachments/assets/59b7542a-6fd2-4e57-8b92-284edda559f9" />
 
 ### apres si vous connaissait bien les commande en 10 seconde votre malwar est fait pour n import quel cible , c est la puissance de msfvenom
 
