@@ -414,4 +414,4 @@ with open('/home/kali/Desktop/encrypted.bin', 'wb') as f:
     f.write(iv + encrypted)
 print('Clé AES (hex):', key.hex())
 "
-
+````
