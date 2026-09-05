@@ -139,7 +139,7 @@ set Lhost 192.168.56.101
 set LPORT 6000
 ````
 ## puis :
-### taper cette commande pour avoir les commande et parametre possible a mettre sur votre platload :
+### taper cette commande pour avoir les commande et parametre possible a mettre sur votre playload :
 
 ````bash
 generate -h
