@@ -415,3 +415,4 @@ with open('/home/kali/Desktop/encrypted.bin', 'wb') as f:
 print('Clé AES (hex):', key.hex())
 "
 ````
+je me suis beaucoup entrainer -__-
